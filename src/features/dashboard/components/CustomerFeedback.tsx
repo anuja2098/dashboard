@@ -5,7 +5,7 @@ import Rating from "@/components/sharedComponents/Rating";
 const CustomerFeedBack = () => {
   return (
     <div>
-      <Card className="h-4/5 overflow-auto">
+      <Card className="h-[385px] overflow-auto">
         <div>
           <h1 className="text-xl font-bold">Customer's Feedback</h1>
         </div>

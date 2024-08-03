@@ -31,7 +31,7 @@ const SideBar = () => {
           <TooltipTrigger asChild>
             <a
               href="#"
-              className="flex h-9 w-9 items-center justify-center rounded-lg text-muted-foreground transition-colors hover:text-foreground md:h-8 md:w-8"
+              className="flex h-9 w-9 items-center justify-center rounded-lg bg-accent text-accent-foreground transition-colors hover:text-foreground md:h-8 md:w-8"
             >
               <Home className="h-5 w-5" />
               {/* <span className="sr-only">Dashboard</span> */}
@@ -43,7 +43,7 @@ const SideBar = () => {
           <TooltipTrigger asChild>
             <a
               href="#"
-              className="flex h-9 w-9 items-center justify-center rounded-lg bg-accent text-accent-foreground transition-colors hover:text-foreground md:h-8 md:w-8"
+              className="flex h-9 w-9 items-center justify-center rounded-lg text-muted-foreground transition-colors hover:text-foreground md:h-8 md:w-8"
             >
               <ShoppingCart className="h-5 w-5" />
               {/* <span className="sr-only">Orders</span> */}

@@ -11,8 +11,8 @@ import { CUSTOMERS } from "../constants";
 
 const CustomerDetails = () => {
   return (
-    <div className="h-4/5">
-      <Card className="min-h-96 flex justify-around">
+    <div className="">
+      <Card className=" flex justify-around">
         <Table className="">
           <TableHeader>
             <TableRow>
@@ -34,7 +34,7 @@ const CustomerDetails = () => {
                   {customer.customer}
                 </TableCell>
                 <TableCell>{customer.orderNo}</TableCell>
-                <TableCell>{customer.amount}</TableCell>
+                <TableCell>${customer.amount}</TableCell>
 
                 <TableCell align="right" className="">
                   <div
