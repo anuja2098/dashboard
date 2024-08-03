@@ -3,7 +3,7 @@ import RightDashboard from "./components/RightDashboard";
 
 const Dashboard = () => {
   return (
-    <div className=" text-white bg-main-bg p-6 h-screen">
+    <div className=" text-white bg-main-bg p-6 fixed h-screen pt-[80px]">
       <h1 className="font-bold text-2xl">Dashboard</h1>
       <div className="flex gap-10">
         <LeftDashboard />

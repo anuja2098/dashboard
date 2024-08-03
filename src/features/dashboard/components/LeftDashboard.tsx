@@ -5,7 +5,7 @@ import Activity from "./Activity";
 
 const LeftDashboard = () => {
   return (
-    <div className="w-8/12 flex flex-col gap-8">
+    <div className="w-8/12 flex flex-col gap-6">
       <CounterWidgets />
       <Activity />
       {/* <Card className="min-h-28" /> */}

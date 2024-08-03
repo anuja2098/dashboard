@@ -7,7 +7,7 @@ const CustomerFeedBack = () => {
     <div>
       <Card className="h-4/5 overflow-auto">
         <div>
-          <h1 className="text-xl p-2 font-bold">Customer's Feedback</h1>
+          <h1 className="text-xl font-bold">Customer's Feedback</h1>
         </div>
 
         {CUSTOMER_DATA.map((data) => (

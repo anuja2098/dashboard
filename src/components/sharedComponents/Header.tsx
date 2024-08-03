@@ -3,7 +3,7 @@ import { Bell, Mail, Search, Settings } from "lucide-react";
 
 const Header = () => {
   return (
-    <div className="h-[70px] bg-black-gray items-center flex justify-between text-white pl-6">
+    <div className=" fixed w-[calc(100vw-5rem)] h-[70px] bg-black-gray items-center flex justify-between text-white pl-6 z-10">
       <div className="">
         <Input
           className="bg-light-gray border-gray-700 w-72"

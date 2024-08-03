@@ -11,7 +11,7 @@ import { CUSTOMERS } from "../constants";
 
 const CustomerDetails = () => {
   return (
-    <div>
+    <div className="h-4/5">
       <Card className="min-h-96 flex justify-around">
         <Table className="">
           <TableHeader>
@@ -22,7 +22,7 @@ const CustomerDetails = () => {
               <TableHead className="text-right text-white">Status</TableHead>
             </TableRow>
           </TableHeader>
-          <TableBody className="">
+          <TableBody>
             {CUSTOMERS.map((customer) => (
               <TableRow key={customer.customer}>
                 <TableCell className="font-medium p-3 flex items-center gap-4">

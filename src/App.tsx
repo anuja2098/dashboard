@@ -5,7 +5,7 @@ import Dashboard from "./features/dashboard";
 
 function App() {
   return (
-    <div>
+    <div className="h-screen bg-main-bg">
       <SideBar />
       <div className="pl-20">
         <Header />

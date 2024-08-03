@@ -146,13 +146,13 @@ export const CUSTOMERS = [
     status: "Delivered",
     isDelivered: true,
   },
-  {
-    image:
-      "https://upload.wikimedia.org/wikipedia/commons/a/a0/Pierre-Person.jpg",
-    customer: "Savannah Nguyen",
-    orderNo: "78514568",
-    amount: 128.0,
-    status: "Delivered",
-    isDelivered: true,
-  },
+  // {
+  //   image:
+  //     "https://upload.wikimedia.org/wikipedia/commons/a/a0/Pierre-Person.jpg",
+  //   customer: "Savannah Nguyen",
+  //   orderNo: "78514568",
+  //   amount: 128.0,
+  //   status: "Delivered",
+  //   isDelivered: true,
+  // },
 ];

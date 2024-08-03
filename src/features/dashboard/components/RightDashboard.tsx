@@ -4,7 +4,7 @@ import NetProfit from "./NetProfit";
 
 const RightDashboard = () => {
   return (
-    <div className="w-4/12 flex flex-col gap-8 mt-2">
+    <div className="w-4/12 flex flex-col gap-6 mt-2">
       <NetProfit></NetProfit>
       <Goals></Goals>
       <CustomerFeedBack></CustomerFeedBack>
